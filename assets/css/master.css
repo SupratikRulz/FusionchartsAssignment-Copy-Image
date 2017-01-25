@@ -1,0 +1,47 @@
+html{
+	background: url(../images/bg1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1{
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 40px;
+}
+h5{
+	font-weight: 200;
+	font-size: 20px;
+}
+
+p{
+	font-weight: 200;
+	letter-spacing: 5;
+}
+.profile-box{
+	width: 400px;
+	height:430px;
+	background: rgba(0,0,0,0.4);
+	color: rgb(255,255,255);
+	padding: 40px;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+.profile-pic{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+.social-box{
+	font-size: 30px;
+	padding: 10px;
+}
+
+.social-box a{
+	color: white;
+}
