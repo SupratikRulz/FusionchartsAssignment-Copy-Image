@@ -34,7 +34,7 @@ p{
 .profile-box{
 	width: 370px;
 	height:1500px;
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.8);
 	color: rgb(255,255,255);
 	padding: 40px;
 	margin-right: 20px ;
@@ -72,7 +72,7 @@ p{
 	width: calc(100% - 450px);
 	height:1500px;
 	float: right;
-	background: rgba(200,255,255,0.80);
+	background: rgba(255,255,255,0.80);
 	padding-left: 10px;
 	color: rgb(0,0,0);
 	margin-right: 20px ;
@@ -108,4 +108,16 @@ p{
 	color: black solid;
 	font-size: 20px;
 	text-align: center;
+}
+
+.left-contact{
+	padding: 10px;
+	width: 510px;
+	float: left;
+	-webkit-flex-flow: row wrap;
+}
+
+.right-contact{
+	width: calc(100% - 560px);
+	float: right;
 }
