@@ -1,5 +1,5 @@
 html{
-	background: url(../images/bg1.jpg) no-repeat center center fixed; 
+	background: url(../../images/bg1.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,13 +8,13 @@ html{
 }
 
 h1{
-	font-weight: 100;
-	letter-spacing: 10px;
-	font-size: 40px;
+	font-weight: 300;
+	letter-spacing: 5px;
+	font-size: 20px;
 }
 h5{
 	font-weight: 200;
-	font-size: 20px;
+	font-size: 10px;
 }
 
 p{
@@ -22,13 +22,13 @@ p{
 	letter-spacing: 5;
 }
 .profile-box{
-	width: 400px;
-	height:430px;
+	width: 370px;
+	height:1500px;
 	background: rgba(0,0,0,0.4);
 	color: rgb(255,255,255);
 	padding: 40px;
-	margin: 0 auto;
-	margin-top: 100px;
+	margin-right: 400px ;
+	margin-top: 0px;
 	text-align: center;
 }
 .profile-pic{
@@ -37,11 +37,19 @@ p{
 	width: 200px;
 }
 
+.p-social{
+	padding-top: 50px;
+	font-size: 15px;
+}
+
 .social-box{
 	font-size: 30px;
-	padding: 10px;
+	padding-top: 10px
 }
 
 .social-box a{
 	color: white;
+}
+.w3-container{
+	padding-top: 250px;
 }
