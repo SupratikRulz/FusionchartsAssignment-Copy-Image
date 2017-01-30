@@ -17,10 +17,16 @@ u {
     text-decoration-color: white;
 }
 
+.tbox{
+	width:25px;
+}
+
 .description{
     color: #999999;
     font-weight: 550;
-    font-family: "Source Sans Pro", Helvetica, sans-serif; 
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size-adjust: auto;
+    font-size: 110%; 
 }
 .caption{
     font-size: 16px;
@@ -53,41 +59,49 @@ div {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-    overflow: auto;
+    justify-content: left;
+    overflow: none;
+    float: left;
+    height: 100%;
+    width: 100%;
 }
 
 .flex-item {
     background-image: url("../../images/bg.jpg");
+    -webkit-filter: contrast(120%); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     margin-top: -800px;
     margin-left: 0px;
-    width:350px;
-    height: 2800px;
+    width:34.45%;
+    height: 100%;
+    float: left;
  
 }
 .flex-item2 {
-    width: calc(100% - 350px);
-    padding-right: 140px;
+    width: calc(100% - 34.45%);
+    height: 100%;
+    padding-top: 5%
+    padding-right:20px;
 }
 
 .designationtext{
     text-align: right;
     padding-top: 0px;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 120%;
     font-weight: 200;
     color: rgba(255,255,255,0.6);
 }
 
 #profile{
     float:right;
-    margin-right: 80px;
+    margin-right: 20%;
     margin-top: 850px;
 }
 #profile .docfont{
+	width: 100%;
     text-align: right;
     position: relative;
     font-family: "Source Sans Pro", Helvetica, sans-serif; 
@@ -98,8 +112,8 @@ div {
 #profile .profile-pic{
     float: right;
     position: relative;
-    width: 90px;
-    height: 90px;
+    width: 50%;
+    height: 50%;
     border-radius: 100%;
 }
 
@@ -110,8 +124,8 @@ div {
     text-align: right;
     float: right;
     padding-left: 0px;
-    margin-right: 100px;
-    margin-bottom: 10px;
+    margin-right: 20%;
+    margin-bottom: 4%;
     margin-top: 1480px;
     font-family: "Source Sans Pro", Helvetica, sans-serif; 
 }
@@ -222,15 +236,15 @@ input[type="submit"].disabled, input[type="submit"]:disabled,input[type="reset"]
 
 #work{
     float: left;
-    margin-left: 40px;
+    margin-left: 5%;
     margin-top: 0px;
-    margin-right: 50px;
+    margin-right: 2%;
 }
 
 #pf{
-    width: 310px;
+    width: 45.97%;
     float: left;
-    margin-right: 30px;
+    margin-right: 8%;
     margin-left: 0px;
     margin-top: 10px;
     font-family: "Source Sans Pro", Helvetica, sans-serif; 
@@ -238,7 +252,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled,input[type="reset"]
 }
 
 #pf2{
-    width: 310px;
+    width: 45.97%;
     float: left;
     margin-right: 0px;
     margin-left: 0px;
@@ -267,19 +281,23 @@ input[type="submit"].disabled, input[type="submit"]:disabled,input[type="reset"]
 
 #contact{
     float: left;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 0px;
+}
+
+.contactform{
+	width: 75%;
 }
 
 #textUpper{
     border-radius: 4px;
     font-weight: bold;
-    padding-left: 10px;
+    padding-left: 1%;
     background-color: #F2F4F4;
-    width:230px;
+    width:47%;
     height: 40px;
-    margin-right: 10px;
+    margin-right: 1%px;
     margin-bottom: 20px;
     border:0px;
 }
@@ -288,10 +306,10 @@ input[type="submit"].disabled, input[type="submit"]:disabled,input[type="reset"]
     background-color: #F2F4F4;
     font-weight: bold;
     font-size: 14px;
-    padding-left: 10px;
+    padding-left: 1%;
     padding-top: 10px;
-    width:480px;
-    height: 160px;
+    width:95%;
+    height: 130px;
     margin-right: 10px;
     margin-bottom: 20px;
     border:0px; 
@@ -316,19 +334,21 @@ input[type="submit"].disabled, input[type="submit"]:disabled,input[type="reset"]
 }
 
 #address{
+	width:25%;
     float: left;
-    margin-left: 20px;
-    font-size: 16.5px;
+    margin-left: 0;
+    font-size: 100%;
 }
 #mdl-icons{
     font-size: 20px;
     color: #616A6B;
     vertical-align: middle;
-    margin-right: 15px;
+    margin-right: 2%;
 }
 
 #awesomefont{
     font-family: "Source Sans Pro", Helvetica, sans-serif; 
     color: #616A6B;
+    font-size-adjust: auto;
 }
 #image:hover{opacity:0.60;filter:alpha(opacity=60);-webkit-backface-visibility:hidden}
